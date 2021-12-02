@@ -1,0 +1,175 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /*border: solid grey;*/
+}
+
+body {
+  margin: 0;
+}
+
+header,
+.main,
+footer {
+  background-color: #1f2937;
+  display: flex;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem 2rem 2rem 5rem;
+}
+
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  padding-bottom: 5rem;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.sectionlinks {
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+  margin-bottom: 1px;
+}
+
+.infotitle {
+  padding-top: 3rem;
+  color: #1f2937;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+a,
+.main p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 2px solid white;
+  padding: 15px;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #1e6ceb;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+.info,
+.infocontainers {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 15px;
+}
+
+.info {
+  padding: 5rem;
+}
+
+.infocontainers {
+  flex-direction: column;
+  text-align: center;
+  width: 175px;
+}
+
+.infoboxes {
+  display: inline-flex;
+  height: 170px;
+  width: 170px;
+  border: solid blue;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonies {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.testimonyboxes {
+  width: 35%;
+  text-align: center;
+  font-size: 26px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quotesymbol {
+  font-size: 60px;
+  color: #1f2937;
+}
+
+.contactbox {
+  background-color: #3882f6;
+  display: flex;
+  margin: 8rem;
+  padding: 3rem;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.calltoaction {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.contactbutton {
+  height: 50px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer p {
+  padding: 3rem;
+  color: #f9faf8;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.mainimage {
+  width: 400px;
+  height: 200px;
+  padding: 1rem 1rem 3rem 3rem;
+}
+
+.iconimgs {
+  width: 165px;
+  height: 165px;
+}
