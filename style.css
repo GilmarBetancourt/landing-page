@@ -12,6 +12,7 @@ header,
 footer {
   background-color: #1f2937;
   display: flex;
+  flex-wrap: wrap;
 }
 
 header {
@@ -19,6 +20,7 @@ header {
   align-items: center;
   justify-content: flex-end;
   padding: 2rem 2rem 2rem 5rem;
+  flex-wrap: wrap;
 }
 
 .maincontent {
@@ -90,6 +92,7 @@ button:active {
   align-items: baseline;
   justify-content: center;
   gap: 15px;
+  flex-wrap: wrap;
 }
 
 .info {
@@ -117,6 +120,7 @@ button:active {
   display: flex;
   justify-content: space-around;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .testimonyboxes {
@@ -125,6 +129,7 @@ button:active {
   font-size: 26px;
   font-style: italic;
   color: #1f2937;
+  flex-wrap: wrap;
 }
 
 .quotesymbol {
@@ -140,6 +145,7 @@ button:active {
   border-radius: 8px;
   justify-content: space-around;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .calltoaction {
