@@ -4,45 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Online Language Lessons</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="logo">
-        <p>GB</p>
+        <a href="#main"><img src="/images/icon.png" alt="Logo" /></a>
       </div>
 
       <div class="sectionlinks">
-        <a href="#">Information</a>
+        <a href="#infotitle">Information</a>
       </div>
 
       <div class="sectionlinks">
-        <a href="#">Testimonies</a>
+        <a href="#testimonies">Testimonies</a>
       </div>
 
       <div class="sectionlinks">
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
       </div>
     </header>
 
-    <section class="main">
+    <section class="main" id="main">
       <div class="maincontent">
         <h1>Online Language Lessons</h1>
-        <p>Learn in an easy and relaxed way.</p>
-        <button>Book a Class</button>
+        <p>
+          Learn a new language in an easy and relaxed way. Click on the button
+          to see my resumé and availability information.
+        </p>
+        <a href="https://preply.com/en/tutor/26022" target="_blank">
+          <button>Book a Class</button>
+        </a>
       </div>
       <div class="mainimage">
-        <img src="laptop-gd4813ae6a_640.png" alt="Some image" />
+        <img src="/images/laptop-gd4813ae6a_640.png" alt="Some image" />
       </div>
     </section>
-    <h1 class="infotitle">Lessons</h1>
+    <h1 class="infotitle" id="infotitle">Lessons</h1>
     <section class="info">
       <div class="infocontainers">
         <div class="infoboxes">
           <img
             class="iconimgs"
-            src="speech-icon-g1b288ecbd_640.png"
+            src="/images/speech-icon-g1b288ecbd_640.png"
             alt="Communicative Method"
           />
         </div>
@@ -53,7 +58,7 @@
         <div class="infoboxes">
           <img
             class="iconimgs"
-            src="whiteboard-icon-gb5f546c6b_640.png"
+            src="/images/whiteboard-icon-gb5f546c6b_640.png"
             alt="Virtual Whiteboard"
           />
         </div>
@@ -64,7 +69,7 @@
         <div class="infoboxes">
           <img
             class="iconimgs"
-            src="calendar-gc0c6fd27d_640.png"
+            src="/images/calendar-gc0c6fd27d_640.png"
             alt="Flexible Hours"
           />
         </div>
@@ -75,7 +80,7 @@
         <div class="infoboxes">
           <img
             class="iconimgs"
-            src="money-gfc946ba36_640.png"
+            src="/images/money-gfc946ba36_640.png"
             alt="Paying platform"
           />
         </div>
@@ -83,7 +88,7 @@
       </div>
     </section>
 
-    <section class="testimonies">
+    <section class="testimonies" id="testimonies">
       <div class="testimonyboxes">
         <p>
           <span class="quotesymbol">&ldquo;</span>
@@ -104,10 +109,12 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="contactbox">
         <p class="calltoaction">Click here now to book a lesson now!</p>
-        <button class="contactbutton">Book</button>
+        <a href="https://preply.com/en/tutor/26022" target="_blank">
+          <button class="contactbutton">Book</button>
+        </a>
       </div>
     </section>
 
