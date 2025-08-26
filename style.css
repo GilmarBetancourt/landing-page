@@ -32,15 +32,21 @@ header {
 .maincontent {
   display: flex;
   flex-direction: column;
-  padding-left: 5rem;
   padding-bottom: 5rem;
-  width: 40%;
+  width: 44%;
 }
 
 .logo {
   margin-right: auto;
   font-size: 24px;
   color: #f9faf8;
+  width:65px;
+  height: 65px;
+}
+
+.logo img {
+  width: 75px;
+  height: 75px;
 }
 
 .sectionlinks {
@@ -105,20 +111,20 @@ button:active {
 }
 
 .info {
-  padding: 5rem;
-  gap: 5%;
+  padding: 5rem 0 5rem 0;
+  gap: 1%;
 }
 
 .infocontainers {
   flex-direction: column;
   text-align: center;
-  width: 175px;
+  width: 275px;
 }
 
 .infoboxes {
   display: inline-flex;
-  height: 170px;
-  width: 170px;
+  height: 240px;
+  width: 240px;
   border: solid #3882f6;
   border-radius: 10%;
   justify-content: center;
@@ -135,7 +141,7 @@ button:active {
 }
 
 .testimonyboxes {
-  width: 25%;
+  width: 26%;
   text-align: center;
   font-size: 26px;
   font-style: italic;
@@ -181,21 +187,22 @@ footer p {
 }
 
 .mainimage {
-  width: 400px;
+  width: 275px;
   height: 200px;
   padding-left: 3rem;
 }
 
 .mainimage img {
-  width: 400px;
+  width: 275px;
   height: 200px;
   border-radius: 3%;
   box-shadow: 3px 3px 10px 3px grey;
 }
 
 .iconimgs {
-  width: 165px;
-  height: 165px;
+  width: 235px;
+  height: 235px;
+  border-radius: 10%;
 }
 
 /* Media queries for mobile view */
